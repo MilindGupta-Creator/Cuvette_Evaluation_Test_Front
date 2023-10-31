@@ -1,0 +1,51 @@
+.container {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px);
+  }
+  
+  .modal {
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 5px;
+    width: 30vw;
+    height: 30vh;
+  }
+  
+  .cancelModalButton, .confirmDeleteModalButton {
+    border-radius: 0.625rem;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    width: 45%; /* Adjust width for both buttons */
+    text-align: center;
+  }
+  
+  .cancelModalButton {
+    background: #fff;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+  }
+  
+  .confirmDeleteModalButton {
+    background: #ff4b4b;
+    color: #fff;
+  }
+  
+  .modalContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: -webkit-fill-available;
+  }
+  
+  .buttonContainer {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+  }
+  

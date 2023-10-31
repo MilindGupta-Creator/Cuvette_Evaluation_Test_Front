@@ -1,0 +1,46 @@
+.dashboardScreen {
+    padding: 5rem 2rem;
+    height: 100%;
+  }
+
+  .dashboardMainCard {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .totalQuiz,
+.totalQuestions,
+.totalImpressions {
+  width: 10rem;
+  border-radius: 0.625rem;
+  background: #fff;
+  padding: 1rem;
+  color: #ff5d01;
+  flex: 1;
+  font-size: 1.2rem;
+  font-style: normal;
+  text-align: center;
+}
+
+.totalQuiz{
+    color: #FF5D01;
+  
+  }
+  
+  .totalQuestions{
+    color: #60B84B;
+  }
+  
+  .totalImpressions{
+    color: #5076FF;
+  }
+  .dashboardQuizDataNumbers{
+    font-size: 2.7rem;
+  }
+
+  .trendingQuizCardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+  }
